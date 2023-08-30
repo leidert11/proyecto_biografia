@@ -1,66 +1,28 @@
-# integrantes
+# Página Web de Rudeus Greyrat - Fanpage de Anime
 
--leider tami 
--juan david guiza
+![Rudeus Greyrat](https://i0.wp.com/genzay.com/wp-content/uploads/2023/04/mushukotensei-01.png?resize=578%2C1024&ssl=1)
 
-# framework y tecnologias a utilizr  a utilizar
--html
--css
--bootstrap 
+## Tecnologías Utilizadas
 
-# maquetacion 
-- figma
+Esta página web sobre el personaje de anime Rudeus Greyrat fue creada utilizando una combinación de tecnologías y herramientas, que incluyen:
 
-## estado del arte segunda entrega
+- **HTML5:** Utilizado para estructurar el contenido y los elementos de la página.
+- **CSS3:** Aplicado para estilizar y dar formato visual a la página, incluyendo el diseño y la presentación.
+- **JavaScript:** Implementado para agregar interactividad y funcionalidades dinámicas a la página (muy poco lo que se utilizara).
+- **Imagenes y Multimedia:** Se incorporaron imágenes y recursos multimedia para mejorar la experiencia del usuario.
+- **Git y GitHub:** Utilizados para el control de versiones y el alojamiento del proyecto.
 
-en este apartado se añadira la informacion veridica en nuestro proyecto , textos a utilizar, videos , imagenes y complementos de todo el contenido a utilizar
+## Objetivo de la Página
 
-## formas del ciberacoso
+El objetivo de esta página web es proporcionar una fanpage dedicada al personaje de anime Rudeus Greyrat. A través de esta página, los fanáticos del anime y los seguidores del personaje pueden obtener información detallada sobre Rudeus Greyrat, su historia, personalidad, contribuciones a la trama del anime y más. La página también busca crear una comunidad en línea donde los entusiastas del anime puedan compartir su amor por el personaje, discutir momentos clave de la serie y acceder a contenido exclusivo relacionado con Rudeus Greyrat.
 
-de los siguiente enlaces encontraremos la informacion sobre las formas del ciberacoso, impacto psicológico y legal, se hara analisis detallado de la informacion de la cual se hara un resumen de las ideas principales y anexaralas a nuestro proyecto 
+## Contenido Adicional
 
-Formas: Enlace que proporciona información sobre los tipos más comunes de ciberacoso y violencia digital. Se analizarán los diferentes métodos de acoso en línea y sus características para comprender cómo se manifiesta.
-- [formas](https://www.welivesecurity.com/la-es/2021/06/17/violencia-digital-tipos-ciberacoso-mas-comunes/)
+Además de la información básica sobre Rudeus Greyrat, la página también ofrece:
 
-Este enlace detalla el impacto psicológico del ciberacoso. Se explorarán los efectos emocionales y mentales que puede tener en las víctimas y cómo esto puede afectar su bienestar general.
-- [impacto psicológico](https://www.redalyc.org/journal/3498/349856003038/html/)
+- **Galería de Imágenes:** Una colección de imágenes del personaje en diferentes situaciones y momentos de la serie.
+- **Sección de Curiosidades:** Detalles interesantes y hechos peculiares sobre Rudeus Greyrat y su desarrollo en la trama.
+- **Enlaces Relacionados:** Recursos y enlaces a otros sitios web y foros relacionados con el anime y el personaje.
+- **Actualizaciones y Noticias:** Anuncios de eventos, lanzamientos y noticias relevantes relacionadas con el mundo del anime y Rudeus Greyrat.
 
-Aquí se abordan las implicaciones legales del ciberacoso. Se discutirá cómo el acoso en línea puede tener consecuencias legales para los acosadores y cómo las leyes pueden proteger a las víctimas.
-- [consecuencias legales](https://www.redalyc.org/journal/5177/517752177019/html/)
-
-# prevencion y estrategias para prevenir el ciberacoso
-
- Este enlace ofrece protocolos y estrategias específicas para prevenir y abordar el ciberacoso. Se proporcionarán pautas concretas que las instituciones educativas y los individuos pueden implementar.
-- [protocolos y estrategias](https://www.colombiaaprende.edu.co/sites/default/files/files_public/2021-04/PEQ_protocolo%20ciberacoso.pdf)
-
-El enlace contiene información sobre programas diseñados para intervenir en el acoso escolar, incluido el ciberacoso. Se explorarán enfoques y metodologías para abordar este problema en los entornos educativos.
-- [Programas de intervención en acoso escolar](http://www.scielo.org.co/scielo.php?script=sci_arttext&pid=S0120-05342019000300210)
-
-
-# pasos a seguir si eres victima de ciberacoso
-
-Enlace que proporciona orientación sobre cómo actuar si eres víctima de ciberacoso. Se detallarán los pasos que las personas pueden seguir para protegerse y buscar ayuda.
-- [Qué hacer si soy víctima de Ciberacoso](https://www.cloudseguro.co/victima-de-ciberacoso/)
-
-Este enlace ofrece recursos y líneas directas de apoyo para las víctimas de ciberacoso. Se proporcionarán contactos y recursos que las personas pueden utilizar para recibir ayuda y asesoramiento.
-- [lineas de ayuda](https://www.unicef.org/es/end-violence/ciberacoso-que-es-y-como-detenerlo#:~:text=Si%20piensas%20que%20te%20están,sea%20online%20o%20en%20persona.)
-
-## Recursos para padres y educadores
-
- Enlace que proporciona guías para los padres sobre cómo abordar el ciberacoso. Se ofrecerán recursos y consejos para ayudar a los padres a comprender y prevenir el acoso en línea.
-- [guias para padres](https://www.educatolerancia.com/wp-content/uploads/2016/12/SOS_ciberbullying_padres_INTECO.pdf)
-
- Aquí se encuentran guías destinadas a los docentes para abordar el ciberacoso en el entorno escolar. Se brindarán herramientas y estrategias para que los educadores puedan intervenir y prevenir el acoso en línea.
-- [guias para docentes](https://volandoenv.cl/wp-content/uploads/2021/03/cibercasoso-docentes.pdf)
-
-
-Este enlace ofrece información sobre cómo intervenir en casos de ciberacoso. Se proporcionarán consejos y pasos para que los padres y educadores puedan ayudar a las víctimas y detener el acoso.
-- [como intervenir en el coberacoso](http://www.fundacionnoble.org.ar/como-intervenir-en-casos-de-ciberbullying/)
-
-Enlace que ofrece claves y estrategias para prevenir el ciberacoso en el entorno escolar. Se proporcionarán consejos prácticos para crear un ambiente seguro en línea.
-- [prevencion del ciberacoso](https://www.sistemasaberes.com/5-claves-prevenir-ciberbullying-colegio/)
-
-Este enlace ofrece información sobre un programa específico para sensibilizar y prevenir el ciberacoso. Se explorarán los detalles y objetivos del programa.
-- [Programa de sensibilización y prevención ante el ciberacoso](https://repository.ucatolica.edu.co/server/api/core/bitstreams/f04f271b-dcea-42d3-a0d5-45ddaedfdf77/content)
-
-
+¡Esperamos que disfrutes explorando la página y compartiendo tu entusiasmo por Rudeus Greyrat con otros fanáticos del anime!
