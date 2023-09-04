@@ -1,0 +1,371 @@
+html {
+  scroll-behavior: smooth;
+  /* transition: opacity 0.3s ease-in-out; */
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  content: "";
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  left: 0;
+  /* font-family: 'Rubik', sans-serif; */
+  color: white;
+  font-family: 'Kanit', sans-serif;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.815);
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: -1;
+}
+
+
+/* cabecero */
+.cabecero {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  z-index: 1;
+  background-color: transparent;
+}
+
+.cabecero img {
+  max-width: 150px;
+}
+
+.cabecero nav {
+  display: flex;
+  gap: 30px;
+  margin-left: auto;
+  align-items: center;
+}
+
+.cabecero nav span {
+  display: none;
+  text-align: end;
+  padding: 20px;
+}
+
+.cabecero nav a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.cabecero button {
+  display: none;
+  background: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.cabecero .header-content h1 {
+  margin: 50px 0 50px 10px;
+  font-size: 40px;
+  color: white;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  max-height: 20px;
+}
+
+nav {
+  margin-right: 20px;
+  text-align: right;
+  width: 600px;
+  height: 2.9rem;
+  display: flex;
+  align-items: center;
+  border: 1px white solid;
+  border-radius: 40px;
+  padding: 0 20px;
+  padding-top: 10px;
+  margin-right: -10rem;
+}
+
+nav li {
+
+  display: inline-block;
+  font-size: 30px;
+  font-weight: 600;
+  margin-right: 20px;
+  padding: 10px 0;
+}
+
+
+/*cabecero cambio de color cuando se realiza scroll, clase añadida desde js*/
+.cabecero-scroll {
+  background-color: #13161c;
+  transition: 1s;
+}
+
+/*------------------ main ----------------------------- */
+main {
+  flex-direction: column;
+  margin-bottom: 110px;
+  margin-top: 80px;
+}
+
+.contenedor {
+  display: flex;
+}
+
+.izquierda {
+  flex: 1;
+  width: 70%;
+}
+
+.derecha {
+  background: rgba(255, 255, 255, 0.034);
+  width: 30%;
+  height: auto;
+}
+
+.img_derecha {
+  height: auto;
+  width: auto;
+}
+
+.nombre_personaje {
+  text-align: center;
+  margin-top: 20px;
+  color: white;
+}
+
+section p,
+footer p {
+  font-weight: 700;
+  font-size: 20px;
+  margin: 0;
+  flex: 1;
+  line-height: 1.5;
+}
+
+
+/*----------------------------- footer ---------------------------*/
+footer {
+  color: white;
+  margin-bottom: 60px;
+}
+
+.h2 {
+  text-align: center;
+  font-size: 30px;
+}
+
+.paragraph {
+  border-radius: 20px;
+  padding: 30px;
+  color: white;
+  margin: 0;
+}
+
+.slider {
+  width: 95vw;
+  height: auto;
+  margin: auto;
+  overflow: hidden;
+}
+
+.slider .slide-track {
+  display: flex;
+  animation: scroll 40s linear infinite;
+  -webkit-animation: scroll 40s linear infinite;
+  width: calc(200px * 14);
+}
+
+.slider .slide {
+  width: 200px;
+  margin-right: 20px;
+
+}
+
+.slider .slide img {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+}
+
+
+a {
+  transition: opacity 0.3s ease-in-out;
+}
+
+/* Cambia la opacidad de los enlaces al pasar el mouse sobre ellos */
+a:hover {
+  opacity: 0.7;
+}
+
+
+@keyframes scroll {
+  0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+
+  100% {
+    -webkit-transform: translateX(calc(-200px * 7));
+    transform: translateX(calc(-200px * 7));
+  }
+}
+
+/* Animación de desaparición */
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+/* Animación de aparición */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 1200px) {
+
+  body {
+    background-size: cover;
+    background-position: center;
+  }
+
+  /*cabecero*/
+  .cabecero button {
+    display: block;
+  }
+
+  .cabecero nav {
+    display: none;
+    transition: 2s;
+  }
+
+  .despNavMovil {
+    padding: 20px;
+    position: absolute;
+    display: block !important;
+    top: 0;
+    right: 0;
+    animation: aparecer 1s forwards;
+    box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .5);
+    background-color: #13161c;
+  }
+
+  .despNavMovil a {
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: block;
+  }
+
+  .cabecero nav span {
+    display: block;
+    cursor: pointer;
+
+  }
+
+  .btnNoDisplay {
+
+    display: none !important;
+
+  }
+
+  header h1 {
+    font-size: 25px;
+  }
+
+  nav {
+    margin-right: 20px;
+    text-align: right;
+    width: auto;
+    height: 19rem;
+    border: none;
+    border-radius: 0;
+    padding: 0;
+    padding-top: 10px;
+    margin-right: 0;
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav li {
+    margin: 10px 0;
+  }
+
+  .contenedor {
+    flex-direction: column;
+  }
+
+  .derecha {
+    display: block;
+    width: auto;
+    height: auto;
+    order: 2;
+  }
+
+  .izquierda {
+    order: 1;
+    width: 100%;
+  }
+
+  .img_derecha {
+    max-width: 50%;
+    display: block;
+    margin: auto;
+  }
+
+}
+
+
+@keyframes aparecer {
+  from {
+    right: -100%;
+  }
+
+  to {
+    right: 0;
+  }
+}
