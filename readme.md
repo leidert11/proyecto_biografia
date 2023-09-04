@@ -24,8 +24,8 @@ Además de la información básica sobre Rudeus Greyrat, la página también ofr
 
 - **Galería de Imágenes:** Una colección de imágenes del personaje en diferentes situaciones y momentos de la serie.
 - **Enlaces Relacionados:** Recursos y enlaces a otros sitios web y foros relacionados con el anime y el personaje.
-[pagina pricipal que utilice ](https://mushokutensei.fandom.com/wiki/Wiki)
-[pagina de la cual saque la novela ligera ](https://novelasligeras.net/index.php/producto/mushoku-tensei-isekai-ittara-honki-dasu-novela-web/)
+- [pagina pricipal que utilice ](https://mushokutensei.fandom.com/wiki/Wiki)
+- [pagina de la cual saque la novela ligera ](https://novelasligeras.net/index.php/producto/mushoku-tensei-isekai-ittara-honki-dasu-novela-web/)
 
 
 
