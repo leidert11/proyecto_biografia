@@ -8,9 +8,9 @@
 
 Esta página web sobre el personaje de anime Rudeus Greyrat fue creada utilizando una combinación de tecnologías y herramientas, que incluyen:
 
-- **HTML5:** Utilizado para estructurar el contenido y los elementos de la página.
-- **CSS:** Aplicado para estilizar y dar formato visual a la página, incluyendo el diseño y la presentación.
-- **JavaScript:** Implementado para agregar interactividad y funcionalidades dinámicas a la página (muy poco lo que se utilizara).
+- **HTML5:** Utilizado para estructurar el contenido y los elementos de la página  HTML 83.2%.
+- **CSS:** Aplicado para estilizar y dar formato visual a la página, incluyendo el diseño y la presentación CSS 13.6%.
+- **JavaScript:** Implementado para agregar interactividad y funcionalidades dinámicas a la página JavaScript 3.2%.
 - **Imagenes:** Se incorporaron imágenes y recursos multimedia para mejorar la experiencia del usuario.
 - **Git y GitHub:** Utilizados para el control de versiones y el alojamiento del proyecto.
 
@@ -30,9 +30,9 @@ Además de la información básica sobre Rudeus Greyrat, la página también ofr
 
 ## version desktop 
 
-![version desktop ](./img/maquetacion%20pc.png)
+![version desktop ](./img/maquetacion_pc.png)
 
 ## version movil
 
-![version movil ](./img/maquetacion%20movil.png)
+![version movil ](./img/maquetacion_movil.png)
 
