@@ -1,9 +1,8 @@
+/* Estilos generales */
 html {
   scroll-behavior: smooth;
-  /* transition: opacity 0.3s ease-in-out; */
   overflow-x: hidden;
 }
-
 
 * {
   margin: 0;
@@ -18,9 +17,8 @@ body {
   padding: 0;
   top: 0;
   left: 0;
-  /* font-family: 'Rubik', sans-serif; */
-  color: white;
   font-family: 'Kanit', sans-serif;
+  color: white;
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-attachment: fixed;
@@ -49,7 +47,8 @@ body::-webkit-scrollbar-thumb {
   background-color: #505658;
   border-radius: 5px;
 }
-/* cabecero */
+
+/* Cabecero */
 .cabecero {
   position: fixed;
   width: 100%;
@@ -125,7 +124,6 @@ nav {
 }
 
 nav li {
-
   display: inline-block;
   font-size: 30px;
   font-weight: 600;
@@ -133,12 +131,12 @@ nav li {
   padding: 10px 0;
 }
 
-
-/*cabecero cambio de color cuando se realiza scroll, clase añadida desde js*/
+/* Cambio de color del cabecero cuando se realiza scroll, clase añadida desde js */
 .cabecero-scroll {
   background-color: #13161c;
   transition: 1s;
 }
+
 
 /*------------------ main ----------------------------- */
 main {
