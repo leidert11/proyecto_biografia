@@ -28,4 +28,11 @@ Además de la información básica sobre Rudeus Greyrat, la página también ofr
 - [pagina de la cual saque la novela ligera ](https://novelasligeras.net/index.php/producto/mushoku-tensei-isekai-ittara-honki-dasu-novela-web/)
 
 
+## version desktop 
+
+![version desktop ](./img/maquetacion%20pc.png)
+
+## version movil
+
+![version movil ](./img/maquetacion%20movil.png)
 

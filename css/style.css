@@ -1,6 +1,7 @@
 html {
   scroll-behavior: smooth;
   /* transition: opacity 0.3s ease-in-out; */
+  overflow-x: hidden;
 }
 
 
@@ -39,7 +40,15 @@ body::before {
   z-index: -1;
 }
 
+body::-webkit-scrollbar {
+  background-color: #13161c;
+  width: 12px;
+}
 
+body::-webkit-scrollbar-thumb {
+  background-color: #505658;
+  border-radius: 5px;
+}
 /* cabecero */
 .cabecero {
   position: fixed;
@@ -154,8 +163,11 @@ main {
 }
 
 .img_derecha {
-  height: auto;
+  height: 70%;
   width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
 }
 
 .nombre_personaje {
